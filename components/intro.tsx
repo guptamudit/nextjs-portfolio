@@ -64,10 +64,14 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Mudit Gupta.</span> I'm a{" "}
-        <span className="font-bold">Computer Science Student</span> in my{" "}
-        <span className="font-bold">3rd year</span> of College. I enjoy building{" "}
-        <span className="italic">websites and applications</span>. My focus is{" "}
-        <span className="underline">Frontend Dev</span>.
+        <span className="font-bold">
+          Computer Science Undergraduate student{" "}
+        </span>
+        currently in my <span className="font-bold">3rd year</span> of College.
+        I enjoy building{" "}
+        <span className="italic">websites and applications</span>. Seeking
+        opportunities to collaborate with{" "}
+        <span className="underline"> like-minded individuals</span>.
       </motion.h1>
 
       <motion.div
@@ -92,7 +96,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="\CV.pdf"
           download
         >
           Download CV{" "}
